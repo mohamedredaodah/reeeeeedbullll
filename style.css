@@ -1,0 +1,183 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+    display: inline;
+    margin-left: 7rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    padding-left: 15px;
+}
+nav ul a{
+    color: #fff;
+    padding: 20px;
+}
+.contaniar{
+    height: 100%;
+}
+ul{
+    display: inline;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    padding-right: 60px;
+}
+.Contact{
+    margin-right: 150px;
+}
+.home{
+    background-color: rgb(24, 24, 140);
+    height: 100vb;
+    color: aliceblue;
+}
+.q{
+    text-decoration: none;
+    padding: 0;
+}
+input[type="button"]{
+    width: 150px;
+    font-size: 14px;
+    height: 40px;
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 100px;
+}
+input[type="button"]:hover{
+    background-color:  rgb(24, 24, 140);
+    color: #fff;
+}
+.car{
+    margin-right: 50px;
+}
+.can{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    animation-name: can;
+    animation-duration: 3s;
+    margin-right: -300px;
+    animation-fill-mode: forwards;
+    margin-left: 250px;
+}
+.contant1{
+    display: flex;
+    margin-left: 7rem;
+    margin-bottom: -50px;
+}
+@keyframes can{
+    from{
+margin-right: -300px;
+    }
+    to{
+        margin-right: 10px;
+    }
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+h1{
+    margin-top: 100px;
+}
+.div{
+    display: block;
+    margin: auto;
+}
+.am1{
+    width: 50px;
+    height: 50px;
+}
+.am2{
+    width: 50px;
+    height: 50px;
+}
+.am3{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:500px) {
+    *{
+        padding:0;
+        margin: 0;
+    }
+    .logo{
+        width: 100px;
+        height: 70px;
+        display: inline;
+        margin-left: -20px;
+    }
+    a{
+        font-size: 15px;
+    }
+    nav{
+        display: block;
+        justify-content: space-between;
+    align-items: center;
+    }
+    ul{
+        display: block;
+    }
+    .ho{
+        margin-left: -22px;
+    }
+    .pro{
+        margin-left: -12px;
+    }
+    .wh{
+        margin-left: -12px;
+    }
+    .ne{
+        margin-left: -12px;
+    }
+    .co{
+        margin-left: -30px;
+    }
+    .can{
+        /* margin-right: 200px; */
+        width: 120px;
+        height: 120px;
+        margin-top: -370px;
+        margin-left: 120px;
+
+    }
+    @keyframes man{
+        from{
+            margin-left: 240px;
+        }
+        to{
+            margin-left: -120px;
+        }
+    }
+    .contant1{
+        display: inline-block;
+    }
+    .ph{
+        margin-left: -100px;
+
+    }
+}
+@media(max-width:501px){
+    .contant1{
+        width: 501px;
+        height: 100%;
+
+    }
+    .can{
+        width: 70px;
+        height: 70px;
+        margin-left: 50px;
+    }
+    .home{
+        background-color: black;
+    }
+}
